@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -30,9 +31,9 @@
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
-        android:background="@color/black"
-        android:textColor="@color/white"
         android:layout_toEndOf="@+id/ivPoster"
+        android:background="#444444"
+        android:textColor="@color/white"
         android:textSize="24sp"
         tools:text="Fast &amp; Furious Presents: Hobbs &amp; Shaw" />
 
@@ -43,9 +44,9 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         tools:text="Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah." />
 
 </RelativeLayout>
